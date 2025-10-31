@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   console.log("hello");
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-[url(/img/goku.jpg)] bg-cover bg-center">
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-[url(/img/background.jpg)] bg-cover bg-center">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16  dark:bg-black opacity-50 sm:items-start">
         
         <Image
