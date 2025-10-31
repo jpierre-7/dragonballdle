@@ -15,12 +15,17 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+    --background-image: url("/img/background.jpg");
     --foreground: #ededed;
   }
 }
 
 body {
-  background: var(--background);
+  background: var(--background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
