@@ -1,7 +1,7 @@
-export default function Ability() {
+export default function Silouhette() {
   return (
     <div>
-        <h1>Ability WEINER</h1>
+        <h1>Silouhette WEINER</h1>
     </div>
   );
 }

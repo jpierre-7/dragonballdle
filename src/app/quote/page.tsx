@@ -1,7 +1,7 @@
-export default function Ability() {
+export default function Quote() {
   return (
     <div>
-        <h1>Ability WEINER</h1>
+        <h1>Quote WEINER</h1>
     </div>
   );
 }
